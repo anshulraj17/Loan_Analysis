@@ -59,44 +59,45 @@ Bad Loan % = DIVIDE([Charged-Off Loans], [Total Loans])
 Average Interest Rate = AVERAGE(Loan[Interest Rate])
 Average DTI = AVERAGE(Loan[DTI])
 Average Funded Amount = AVERAGE(Loan[Funded Amount])
- Insights & Findings
- California (CA) has the highest number of bad loans.
 
- Small business loans show the highest bad-loan rate (~25%).
+```
 
- Default probability increases slightly for longer loan terms (60 months).
+### Insights & Findings
+ - California (CA) has the highest number of bad loans.
 
- Beginner-level professionals contribute to a larger share of bad loans.
+ - Small business loans show the highest bad-loan rate (~25%).
 
- Average DTI remains consistent across good and bad loans (~0.13 – 0.14).
+ - Default probability increases slightly for longer loan terms (60 months).
 
- Learning Outcomes
+ - Beginner-level professionals contribute to a larger share of bad loans.
+
+ - Average DTI remains consistent across good and bad loans (~0.13 – 0.14).
+
+### Learning Outcomes
 Through this project, the following analytical and technical skills were demonstrated:
 
-Data cleaning & modeling using Power Query
+- Data cleaning & modeling using Power Query
 
-DAX formula creation for KPIs and calculations
+- DAX formula creation for KPIs and calculations
 
-Multi-page dashboard design with slicers and dynamic interactions
+- Multi-page dashboard design with slicers and dynamic interactions
 
-Insight generation & business storytelling through visual analytics
+- Insight generation & business storytelling through visual analytics
 
- How to Use
-Clone or download this repository.
 
-Open the .pbix file in Power BI Desktop.
+### How to Use
+- Clone or download this repository.
 
-Connect the dataset (Loan_dataset.csv).
+- Open the .pbix file in Power BI Desktop.
 
-Explore both dashboards interactively using filters and slicers.
+- Connect the dataset (Loan_dataset.csv).
 
- Repository Structure
-css
-Copy code
-Loan-Data-Dashboard/
-│
-├── Loan_dataset.csv
-├── Home page.png
-├── Bad Loan Summary.png
-├── Loan_Analysis_Dashboard.pbix
-└── README.md
+- Explore both dashboards interactively using filters and slicers.
+
+
+### Repository Structure
+
+<img width="294" height="256" alt="image" src="https://github.com/user-attachments/assets/23a1a1aa-c2ce-4b18-8eb1-368784b5fb4e" />
+
+
+
